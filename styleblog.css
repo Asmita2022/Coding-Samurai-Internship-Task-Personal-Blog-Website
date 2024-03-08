@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: rgb(204, 196, 196);
+}
+
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(66, 64, 64);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.nav-content{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contents{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont{
+    height: 30px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(183, 177, 188);
+    border-radius: 5px;
+}
+.color:hover{
+    background-color: rgb(158, 153, 169);
+    color: black;
+    border-radius: 5px;
+}
+
+main{
+    height: 1000px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.post1{
+    height: 300px;
+    width: 100%;
+    margin-left: 20px;
+    display: flex;
+    font-size: 20px;
+}
+
+.info{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.info h3{
+    color: rgb(18, 18, 102);
+}
+
+.post{
+    height: 470px;
+    width: 450px;
+}
+
+img{
+    height: 250px;
+    width: 400px;
+    background-image: url('post1.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.opinion{
+    margin: 5px 0px 5px 0px;
+    color: black;
+}
+
+a{
+    color: rgb(8, 11, 51);
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: rgb(154, 8, 8);
+}
+
+.detail{
+    color: black;
+}
+
+.blog-content{
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information{
+    width: 1050px;
+}
+
+.blog-title{
+    color: rgb(68, 3, 3);
+}
+
+.blog-info{
+    margin-top: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+.image{
+    margin-top: 30px;
+    height: 500px;
+    width: 100%;
+}
+
+b{
+    color: black;
+}
+
+.main1{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.main-contact{
+    
+    padding: 20px;
+    margin-top: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+.contact{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.name{
+    font-size: 20px;
+}
+
+#input{
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.detail{
+    font-size: 20px;
+}
+
+#input1{
+    height: 150px;
+    width: 510px;
+    border-radius: 5px;
+}
+
+.question{
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: orange;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('blog.jpeg');
+    background-repeat:repeat;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(10px);
+    
+}
+
+.about-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-content{
+    width: 800px;    
+    color: white;
+    margin-top: 20px;
+    padding: 0px 10px 0px 10px;
+}
+.about-txt{
+    font-size: 20px;
+    color: white;
+
+}
+
+.txt{
+    color: white;
+    text-decoration: underline;
+    
+}
+
+
+
+@media screen and (max-width: 789px){
+    .post1{
+        height: 600px;
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .about-txt{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .navbar{
+        width: 100%;
+    }
+    img{
+        width: 100%;
+    }
+    .post{
+        height: 550px;
+        padding: 0px 10px 0px 10px;
+    }
+    .about-txt{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 573px){
+    .contact{
+        display: inline;
+    }
+    #input1{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 302px){
+    #input{
+        width: 200px;
+    }
+    #input1{
+        width: 200px;
+    }
+}
